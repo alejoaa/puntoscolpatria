@@ -1,0 +1,38 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 63px;
+    background-color: #F1F1F1;
+    border-top: 1px solid #D6D6D6;
+    text-align: justify;
+    padding: 6px 6px;
+
+    &:after {
+        content: '';
+        width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+        display: inline-block;
+    }
+
+    &__link {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &__link__icon {
+        width: 30px;
+        display: block;
+        margin-bottom: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__link__text {
+        font-size: 1rem;
+        color: #9E9E9D;
+        font-family: 'Varela Round', sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+
+}

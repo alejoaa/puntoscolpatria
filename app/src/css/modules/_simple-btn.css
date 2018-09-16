@@ -1,0 +1,10 @@
+.simple-btn {
+    width: 130px;
+    height: 40px;
+    background-color: #F4F4F4;
+    color: #909090 !important;
+    font-weight: 800;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}

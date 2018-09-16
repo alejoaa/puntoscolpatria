@@ -1,0 +1,14 @@
+html {
+    font-size: 16px !important;
+}
+
+body {
+    /* font-family: 'Open Sans'; */
+    font-family: 'Varela Round', sans-serif;
+    /* margin: 0; */
+    padding-bottom: 73px;
+}
+
+a:hover {
+    text-decoration: none;
+}

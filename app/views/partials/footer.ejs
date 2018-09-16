@@ -1,0 +1,43 @@
+<footer class="footer">
+
+    <a href="/" class="footer__link">
+        <img src="img/nav-donate.png" class="footer__link__icon">
+        <p class="footer__link__text">Donar</p>
+    </a>
+    
+    <a href="/" class="footer__link">
+        <img src="img/nav-rewards.png" class="footer__link__icon">
+        <p class="footer__link__text">Logros</p>
+    </a>
+    
+    <a href="/" class="footer__link">
+        <img src="img/nav-campaings.png" class="footer__link__icon">
+        <p class="footer__link__text">Campañas</p>
+    </a>
+    
+    <a href="/" class="footer__link">
+        <img src="img/nav-points.png" class="footer__link__icon">
+        <p class="footer__link__text">Puntos</p>
+    </a>
+    
+    <a href="/" class="footer__link">
+        <img src="img/nav-profile.png" class="footer__link__icon">
+        <p class="footer__link__text">Perfil</p>
+    </a>
+
+</footer>
+
+<script>
+    var a=document.getElementsByTagName("a");
+    for(var i=0;i<a.length;i++)
+    {
+        a[i].onclick=function()
+        {
+            window.location=this.getAttribute("href");
+            return false
+        }
+    }
+</script>
+
+</body>
+</html>
