@@ -26,6 +26,10 @@
         &--lenceria {
             background-image: url('../img/lenceria.jpg');
         }
+        
+        &--dron {
+            background-image: url('../img/dron.jpg');
+        }
     }
 
     &__content {
@@ -77,6 +81,9 @@
                 height: 100%;
                 background-color: #B1DFF5;
 
+                &--60 {
+                    width: 60%;
+                }
             }
         }
     }

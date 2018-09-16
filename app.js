@@ -26,11 +26,15 @@ if (process.env.DEV_ENV == "true") {
 
 // Routes
 app.get('/', function(req, res) {
-    res.redirect('/redeem');
+    res.redirect('/redimir');
 });
 
-app.get('/redeem', function(req, res) {
+app.get('/redimir', function(req, res) {
     res.render('redeem');
+});
+
+app.get('/tarjetas', function(req, res) {
+    res.render('cards');
 });
 
 var port = process.env.PORT || 8000

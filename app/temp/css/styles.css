@@ -480,6 +480,10 @@ a:hover {
             background-image: url('../img/lenceria.jpg');
         }
 
+.points-card__img--dron {
+            background-image: url('../img/dron.jpg');
+        }
+
 .points-card__content {
         flex-shrink: 0;
         flex-grow: 1;
@@ -529,8 +533,11 @@ a:hover {
                 width: 80%;
                 height: 100%;
                 background-color: #B1DFF5;
-
             }
+
+.points-card__content__button__outter-bar__inner--60 {
+                    width: 60%;
+                }
 
 .points-card__content__button-2 {
         display: block;
@@ -542,3 +549,9 @@ a:hover {
         text-align: center;
         color: #75C4F5;
     }
+
+.credit-card {
+    width: 100%;
+    max-width: 350px;
+    margin: auto auto auto auto;
+}
